@@ -1,0 +1,89 @@
+.banking-overview {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e3f2fd; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #01579b; 
+}
+
+.summary-box {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.summary-item {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 22%;
+}
+
+.summary-item h3 {
+    margin-bottom: 10px;
+    color: #0288d1; 
+}
+
+.summary-item p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+}
+
+.charts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+.chart-container {
+    width: 300px; 
+    height: 300px; 
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.chart-container h3 {
+    margin-bottom: 15px;
+    color: #01579b;
+}
+
+.recent-activities {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.recent-activities h3 {
+    margin-bottom: 15px;
+    color: #01579b; 
+}
+
+.recent-activities ul {
+    list-style: none;
+    padding: 0;
+}
+
+.recent-activities li {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
