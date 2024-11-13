@@ -1,0 +1,97 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    box-sizing: border-box;
+}
+  
+
+.bank-container {
+    width: 1000px;  
+    max-width: 100%;  
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+}
+  
+
+.bank-title {
+    font-size: 2.5rem;
+    color: #87CEEB;
+}
+  
+
+.account-table {
+    width: 100%;  
+    border-collapse: collapse;
+}
+  
+.account-table th, 
+.account-table td {
+    border: 1px solid #bdc3c7;
+    padding: 12px;
+    text-align: center; 
+}
+  
+.account-table th {
+    background-color: #2980b9; 
+    color: white;
+}
+  
+.account-table tr:nth-child(even) {
+    background-color: #ecf0f1; 
+}
+  
+.account-table tr:hover {
+    background-color: #d1e7dd; 
+}
+  
+
+.add-account-form {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.add-account-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+.add-account-form button {
+    padding: 10px 20px;
+    background-color: #87CEEB;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.add-account-form button:hover {
+    background-color: #2980b9;
+}
+  
+
+.loading {
+    font-size: 1.2rem;
+    color: #e74c3c;
+}
+  
+
+@media only screen and (max-width: 600px) {
+    .account-table {
+        font-size: 0.9rem; 
+    }
+}
