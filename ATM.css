@@ -1,0 +1,99 @@
+body{
+    margin-bottom: 20px;
+}
+.atm-management 
+{
+    max-width: 10000px;
+    margin: 0 auto;
+    padding: 20px;
+    width: fit-content;
+    margin-top: 20px;
+    /* background-color: #f9f9f9; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2 
+  {
+    margin-bottom: 20px;
+    color: #007bb5;
+  }
+  
+  .summary-box 
+  {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .summary-item 
+  {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 45%;
+  }
+  
+  .summary-item h3 {
+    margin-bottom: 10px;
+    color: #007bb5;
+  }
+  
+  .summary-item p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333333;
+  }
+  
+  .chart-container {
+    margin-top: 40px;
+    max-width:700px;
+    max-height:400px;
+  }
+  
+  .chart-container h3 {
+    margin-bottom: 20px;
+    color: #007bb5;
+  }
+  
+  .chart-container canvas {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .atm-status-management {
+    margin-top: 40px;
+  }
+  
+  .atm-status-management h3 {
+    margin-bottom: 15px;
+    color: #007bb5;
+  }
+  
+  .atm-status-management ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .atm-status-management li {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .atm-status-management select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #cccccc;
+    font-size: 16px;
+  }
+  
